@@ -3,10 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy | ZelvoraLead</title>
-<meta name="description" content="How ZelvoraLead collects, uses and protects your personal information, in line with South Africa's POPIA.">
+<title>Free Google Business Profile Grader — Score Your Listing in 60 Seconds | ZelvoraLead</title>
+<meta name="description" content="Free 60-second scorecard: grade your Google Business Profile and see exactly what's holding your local search visibility back. No email required.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://zelvoralead.co.za/privacy-policy">
+<link rel="canonical" href="https://zelvoralead.co.za/tools/google-business-profile-grader.html">
 <meta name="theme-color" content="#080A0A">
 <!-- Google Analytics (GA4) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QPMHM73KWG"></script>
@@ -16,8 +16,16 @@
   gtag('js', new Date());
   gtag('config', 'G-QPMHM73KWG');
 </script>
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zelvoralead.co.za/tools/google-business-profile-grader.html">
+<meta property="og:title" content="Free Google Business Profile Grader | ZelvoraLead">
+<meta property="og:description" content="Grade your Google Business Profile in 60 seconds and see exactly what's holding your local search visibility back.">
+<meta property="og:image" content="https://zelvoralead.co.za/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Free Google Business Profile Grader | ZelvoraLead">
+<meta name="twitter:description" content="Grade your Google Business Profile in 60 seconds and see exactly what's holding your local search visibility back.">
+<meta name="twitter:image" content="https://zelvoralead.co.za/og-image.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -394,76 +402,148 @@
   .reveal.in{opacity:1; transform:none;}
 
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Google Business Profile Grader",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Any",
+  "offers": {"@type":"Offer","price":"0","priceCurrency":"ZAR"},
+  "provider": {"@type":"Organization","name":"ZelvoraLead","url":"https://zelvoralead.co.za/"}
+}
+</script>
 <style>
-  .legal{padding:clamp(56px,9vw,96px) 0 100px;}
-  .legal h2{font-size:22px; margin:44px 0 14px;}
-  .legal h2:first-of-type{margin-top:0;}
-  .legal p, .legal li{font-size:14.5px; color:var(--off-60); line-height:1.75; margin-bottom:12px;}
-  .legal ul{padding-left:20px; list-style:disc;}
-  .legal a{color:var(--lime); border-bottom:1px solid var(--lime-glow);}
-  .legal .updated{font-size:12.5px; color:var(--off-40); margin-bottom:36px;}
+  .grade-list{margin-top:40px; border-top:1px solid var(--line);}
+  .grade-row{display:flex; align-items:flex-start; gap:16px; padding:18px 4px; border-bottom:1px solid var(--line); cursor:pointer;}
+  .grade-row input{margin-top:4px; width:20px; height:20px; accent-color:var(--lime); flex-shrink:0;}
+  .grade-row div b{display:block; font-size:14.5px; font-weight:500;}
+  .grade-row div span{font-size:12.5px; color:var(--off-40);}
+  .score-panel{border:1px solid var(--line-strong); border-radius:var(--radius-lg); padding:36px; margin-top:44px; text-align:center; background:linear-gradient(160deg, var(--panel), var(--panel-2)); box-shadow:var(--shadow-lg);}
+  .score-num{font-family:'Space Grotesk'; font-size:56px; font-weight:700; color:var(--lime);}
+  .score-label{font-size:15px; color:var(--off-60); margin-top:8px;}
+  .score-bar{height:8px; background:var(--line-strong); border-radius:8px; margin-top:22px; overflow:hidden;}
+  .score-bar-fill{height:100%; background:linear-gradient(90deg, var(--lime), var(--lime-2)); border-radius:8px; transition:width .4s ease; width:0%;}
 </style>
 </head>
 <body>
-<div class="glow glow-a"></div><div class="glow glow-b"></div>
+
+<div class="glow glow-a"></div>
+<div class="glow glow-b"></div>
+
 <header>
   <div class="nav wrap">
-    <a href="index.html" class="brandmark">
+    <a href="../index.html" class="brandmark">
       <span class="mark"><svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 12H36L14 36H40" stroke="#B6E23C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="36" r="4.5" fill="#B6E23C"/></svg></span>
       <span class="wordmark">Zelvora<b>Lead</b></span>
     </a>
-    <nav class="nav-links"><a href="index.html">Home</a></nav>
-    <div class="nav-cta"><a href="index.html#contact" class="btn btn-primary">Get My Free Lead Audit</a></div>
+    <nav class="nav-links">
+      <a href="../index.html#machine">The Machine</a>
+      <a href="../index.html#pricing">Pricing</a>
+      <a href="missed-call-calculator.html">Missed Calls</a>
+      <a href="../index.html#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="../index.html#contact" class="btn btn-primary">Get My Free Lead Audit</a>
+    </div>
   </div>
 </header>
-<main class="wrap legal">
-  <div class="eyebrow">Legal</div>
-  <h1 style="font-size:clamp(28px,4vw,40px);">Privacy Policy</h1>
-  <p class="updated">Last updated: September 2026</p>
 
-  <h2>What we collect</h2>
-  <p>When you submit the Lead Audit form or message us on WhatsApp, we collect your name, business name, phone number, and any optional details you provide (website, industry, what you're looking for). If you use the site chat, your messages are processed to generate a reply.</p>
+<main>
+  <section class="hero wrap" style="padding-bottom:0;">
+    <div class="eyebrow">Free tool · No email required · 60 seconds</div>
+    <h1 style="max-width:17ch;">Grade Your Google Business Profile.</h1>
+    <p class="lede">Tick what's true for your listing. Most of what determines whether you show up in the local map pack comes down to these ten things.</p>
+  </section>
 
-  <h2>Why we collect it</h2>
-  <p>Solely to respond to your enquiry, provide the Lead Audit or service you requested, and — only if you've agreed — to follow up about ZelvoraLead's services. We don't sell or rent your information to anyone.</p>
+  <section class="wrap">
+    <div class="grade-list reveal" id="gradeList"></div>
 
-  <h2>How we use tools that process data</h2>
-  <ul>
-    <li><b>Google Analytics</b> — anonymised traffic data to understand how the site is used.</li>
-    <li><b>WhatsApp Business</b> — messages you send us via WhatsApp are handled per WhatsApp's own privacy terms.</li>
-    <li><b>The site chat assistant</b> — your messages are sent to Anthropic's Claude API to generate a reply. Conversations aren't used to train models and aren't linked to your identity unless you provide contact details in the chat yourself.</li>
-    <li><b>Netlify Forms</b> — the Lead Audit form is processed and stored via our hosting provider, Netlify.</li>
-  </ul>
+    <div class="score-panel reveal">
+      <div class="score-num" id="scoreNum">0<span style="font-size:24px; color:var(--off-40);">/100</span></div>
+      <div class="score-label" id="scoreLabel">Tick the boxes above to see your score</div>
+      <div class="score-bar"><div class="score-bar-fill" id="scoreBar"></div></div>
+    </div>
 
-  <h2>Your rights (POPIA)</h2>
-  <p>Under South Africa's Protection of Personal Information Act, you can ask us what information we hold about you, ask us to correct it, or ask us to delete it. Email <a href="mailto:zelvoralead@gmail.com">zelvoralead@gmail.com</a> and we'll action this within a reasonable time.</p>
-
-  <h2>How long we keep it</h2>
-  <p>Enquiry details are kept only as long as needed to respond to you or, if you become a client, for the duration of our working relationship plus a reasonable period after for record-keeping.</p>
-
-  <h2>Cookies</h2>
-  <p>We use standard analytics cookies (Google Analytics) to understand site traffic. No cookies are used to sell your data or track you across other sites.</p>
-
-  <h2>Contact</h2>
-  <p>Questions about this policy: <a href="mailto:zelvoralead@gmail.com">zelvoralead@gmail.com</a> or via <a href="https://wa.me/27659905227" target="_blank" rel="noopener">WhatsApp</a>.</p>
+    <div class="feat-grid reveal" style="margin-top:80px;">
+      <div>
+        <div class="eyebrow">Why this matters</div>
+        <h2>The map pack decides who gets called first.</h2>
+        <p class="lede">When someone searches "[your service] near me," Google shows three local results before anything else. Profile completeness, review volume and review recency all factor into which three businesses that is.</p>
+      </div>
+      <div>
+        <p style="font-size:15px; color:var(--off-60); line-height:1.7;">This is exactly what the <b style="color:var(--off);">Attract</b> stage of the ZelvoraLead Machine handles — Google Business Profile setup and ongoing optimisation, built in from Zelvora Start upward.</p>
+        <div class="btn-row">
+          <a href="../index.html#contact" class="btn btn-primary">Get My Free Lead Audit</a>
+          <a href="../index.html#machine" class="btn btn-ghost">See How It Works</a>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
+
 <footer>
   <div class="wrap">
     <div class="foot-grid">
       <div>
-        <a href="index.html" class="brandmark">
+        <a href="../index.html" class="brandmark">
           <span class="mark"><svg width="20" height="20" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M10 12H36L14 36H40" stroke="#B6E23C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="36" r="4.5" fill="#B6E23C"/></svg></span>
           <span class="wordmark">Zelvora<b>Lead</b></span>
         </a>
+        <p style="max-width:32ch; color:var(--off-40); font-size:13px; margin-top:14px;">The Lead Machine for service businesses.</p>
       </div>
-      <div class="foot-links"><a href="index.html">Home</a><a href="terms">Terms</a></div>
+      <div class="foot-links">
+        <a href="../index.html">Home</a><a href="../index.html#pricing">Pricing</a>
+        <a href="missed-call-calculator.html">Missed Call Calculator</a>
+        <a href="customer-lifetime-value-calculator.html">CLV Calculator</a>
+        <a href="../privacy-policy">Privacy Policy</a>
+      </div>
     </div>
     <div class="foot-bottom"><span>© 2026 ZelvoraLead. All rights reserved.</span><span>zelvoralead@gmail.com</span></div>
   </div>
 </footer>
+
 <div class="mobile-bar">
   <a href="tel:+27659905227">📞 Call Now</a>
   <a class="wa" href="https://wa.me/27659905227" target="_blank" rel="noopener">💬 WhatsApp Us</a>
 </div>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{ entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} }); },{threshold:0.15});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  const items = [
+    [15, "Profile claimed and verified", "The single biggest factor — an unclaimed listing barely ranks at all"],
+    [10, "Category is correct and specific", "\"Garage Door Supplier\" beats generic \"Contractor\" for matching searches"],
+    [10, "Business hours fully filled in", "Including holiday hours — incomplete hours quietly hurt trust and ranking"],
+    [10, "10 or more photos uploaded", "Listings with more photos get meaningfully more requests for directions and clicks"],
+    [10, "Services or products listed", "Helps Google match you to specific searches, not just your business name"],
+    [10, "5 or more reviews", "Review count is one of the strongest local ranking signals there is"],
+    [10, "Average rating of 4 stars or higher", "Below this, click-through rate drops sharply even if you rank well"],
+    [10, "You respond to reviews (good and bad)", "Signals an active, trustworthy business to both Google and readers"],
+    [5, "Posted an update in the last 30 days", "Recency is a (smaller but real) ranking factor"],
+    [10, "Messaging or booking enabled", "Removes friction between a search and an actual enquiry"]
+  ];
+
+  const list = document.getElementById('gradeList');
+  items.forEach((item, i) => {
+    const row = document.createElement('label');
+    row.className = 'grade-row';
+    row.innerHTML = '<input type="checkbox" data-pts="' + item[0] + '"><div><b>' + item[1] + '</b><span>' + item[2] + '</span></div>';
+    list.appendChild(row);
+  });
+
+  function updateScore(){
+    let score = 0;
+    document.querySelectorAll('.grade-row input').forEach(cb => { if(cb.checked) score += +cb.dataset.pts; });
+    document.getElementById('scoreNum').innerHTML = score + '<span style="font-size:24px; color:var(--off-40);">/100</span>';
+    document.getElementById('scoreBar').style.width = score + '%';
+    const label = document.getElementById('scoreLabel');
+    if(score >= 80) label.textContent = "Strong — you're doing the fundamentals right";
+    else if(score >= 50) label.textContent = "Room to grow — a few fixes could meaningfully lift visibility";
+    else label.textContent = "High opportunity — visibility is likely being left on the table";
+  }
+  document.addEventListener('change', (e)=>{ if(e.target.matches('.grade-row input')) updateScore(); });
+</script>
 </body>
 </html>
